@@ -1,49 +1,33 @@
 # HealthAtom code challenge #
 
-¡Hola! En este repositorio vas a encontrar todo lo necesario para poder evaluar y responder las preguntas de la prueba de ingreso para área de
-Desarrollo en Healthatom
+¡Hola! En este repositorio se encontrarán las respuestas propuestas al desafio de ingreso a HealthAtom
 
-Por favor, incluye tus respuestas en un archivo en cada subdirectorio correspondiente (`/desafioN/respuesta/`)
 
 ## Desafío 1 ##
 ### Consideraciones ###
-* Puedes encontrar la información necesaria para desarrollar tu algoritmo en `/desafio1/last_year.json`
-* Puedes usar el lenguaje de tu preferencia para escribir tu respuesta, pero preferimos si usas alguno de estos: Python, JavaScript (librerías externas permitidas) o PHP.
-* Incluye tu respuesta en un archivo en el directorio `/desafio1/respuesta/`
+* El script esta escrito en Python 3
+* Para comodidad de ejecución se puede correr en herramientas como VirtualENV, creando una instancia y albergando solo la carpeta de respuesta.
+* Despues de guardarlo, se levanta el ambiente virtual y se ejecuta con el comando `python main.py`
+* Tambien se puede ejecutar en un compilador onLine de Python 3.
+Nota: El archivo `last_year.json` es importante para la ejecución, recordar alimentar el script con el archivo. 
 
 ## Desafío 2 ##
 ### Consideraciones ###
 
-* Puedes encontrar las sentencias `CREATE TABLE` e `INSERT` para escribir y probar tus consultas en `/desafio2/modelo_y_datos.sql`
-* Incluye tu respuesta en un archivo en el directorio `/desafio2/respuesta/`
+* Se incluyen las sentencias despues de crear la base de datos con el script de referencia `CREATE TABLE` e `INSERT`.
+* En el archivo `respuesta/scripts.sql` se encuentra documentado punto a punto para la ejecución en consola MySQL.
+
 
 ## Desafío 3 ##
 ### Consideraciones ###
 
-* Puedes encontrar las sentencias `CREATE TABLE` e `INSERT` para escribir y probar tus consultas en `/desafio2/modelo_y_datos.sql`
-* Incluye tu respuesta en uno o más archivos en el directorio `/desafio3/respuesta/`, menciona cualquier supuesto que hayas tomado junto con las sentencias `ALTER TABLE` y/o `CREATE TABLE` que definas necesarias.
+* Se incluye el archivo `respuestas/scripts.sql` realizando la propuesta de modificaciones y script solicitado.
 
 ## Desafío 4 ##
 ### Consideraciones ###
 
-* Puedes encontrar el código base en `/desafio4/index.html`. Modifica dicho archivo para incluir toda la lógica necesaria para que funcione tu solución.
-* Puedes incluir cualquier librería externa, JS y/o CSS, para desarrollar tu respuesta.
-* Puedes incluir bloques `<script/>` o `<style/>`, pero evita usar estilos "inline" para CSS
-* No es necesario persistir la información en bases de datos para este desafío, puedes manejar todos los datos en memoria.
+* El proyecto está escrito en React por lo que se debe clonar el contenido completo de la carpeta desafio4.
+* Despues de clonado, se descarga el paquete NPM con `npm install`
+* Una vez se haya instalado el modulo, se ejecuta el comando `npm start`
+Nota: Verificar que la versión de Node en el cliente sea > 10.
 
-### Como ejecutar/probar ###
-
-* Usa cualquier servidor web para interpretar index.html
-* Nginx y apache son servidores recomendados.
-* Puede utilizar también una de las siguientes soluciones rápidas
-
-**Con Python SimpleHTTPServer**
-
-`python -M SimpleHTTPServer`
-
-**Con PHP**
-
-`php -S localhost:8000`
-
-### Si tienes dudas sobre los desafíos, no dejes de preguntar! ###
-# ¡Éxito! #
